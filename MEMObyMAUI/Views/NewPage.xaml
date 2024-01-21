@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MEMObyMAUI.NewPage"
+             BackgroundColor="darkslateblue"
+             Title="Nuovo Memo">
+    
+    <VerticalStackLayout Margin="5" Padding="10, 10, 10, 10" Spacing="5" x:Name="VLayoutNewMemo">
+
+        <Grid 
+                Padding="3"
+                Margin="1,1"
+                ColumnDefinitions="*,*,*"
+                RowDefinitions="auto"
+                ColumnSpacing="0"
+                RowSpacing="0"
+                x:Name="MemoTop">
+
+            <Image
+                    Source="logo.png"
+                    SemanticProperties.Description=""
+                    HeightRequest="100"
+                    WidthRequest="100"
+                    HorizontalOptions="Center"
+                    Grid.Row="0" 
+                    Grid.Column="0"/>
+
+            <Label
+                    Text="My Memo App"
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="30"
+                    TextColor="Gold"
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Center"
+                    Grid.Row="0" 
+                    Grid.Column="1"/>
+
+            <Grid 
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    ColumnDefinitions="*"
+                    RowDefinitions="*,*"
+                    ColumnSpacing="0"
+                    RowSpacing="0"
+                    x:Name="MemoTop2">
+
+                <Button 
+                      Grid.Row="0"
+                      Grid.Column="0"
+                      Text="Home"
+                      VerticalOptions="Center"
+                      BackgroundColor="goldenrod"
+                      Clicked="OnButtonHomeClicked" />
+
+                <Button 
+                      Grid.Row="1"
+                      Grid.Column="0"
+                      Text="Gestisci"
+                      VerticalOptions="Center"
+                      BackgroundColor="goldenrod"
+                      Clicked="OnButtonGestisciClicked" />
+
+            </Grid>
+
+        </Grid>
+
+        <Rectangle Fill="Gold" />
+
+        <Label
+                Text="Nuovo Memo:"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="20"
+                TextColor="White"
+                HorizontalOptions="Center" />
+
+        <Label
+                Text="Data e Ora:"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="16"
+                TextColor="White"
+                HorizontalOptions="Center" />
+
+        <Grid 
+            ColumnDefinitions="*,*"
+            RowDefinitions="*"
+            ColumnSpacing="2"
+            RowSpacing="0"
+            x:Name="GridData">
+
+            <DatePicker 
+                Grid.Row="0"
+                Grid.Column="0"
+                x:Name="DataTXT"
+                HorizontalOptions="Center"
+                TextColor="White"
+                BackgroundColor="darkslateblue"
+                MinimumDate="{Binding MinDate}"
+                MaximumDate="{Binding MaxDate}"
+                Date="{Binding SelectedDate}" />
+
+            <TimePicker 
+                Grid.Row="0"
+                Grid.Column="1"
+                x:Name="TimeTXT"    
+                HorizontalOptions="Center"
+                TextColor="White"
+                Time="{Binding SelectedTime}" />
+
+        </Grid>
+
+        <Label
+                Text="Testo da Ricordare:"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="16"
+                TextColor="White"
+                HorizontalOptions="Center" />
+
+        <Entry 
+                Grid.Column="2"
+                HorizontalOptions="Center"
+                Placeholder="Testo del Memo"
+                SemanticProperties.Hint="Descrizione del memo"
+                WidthRequest="250"
+                TextColor="White"
+                MaxLength="250"
+                Keyboard="Default"
+                x:Name="DescrizioneTXT" />
+
+        <Button
+                x:Name="InsBtn"
+                Text="Conferma"
+                SemanticProperties.Hint="Inserisci memo"
+                Clicked="OnInsClicked"
+                BackgroundColor="goldenrod"
+                WidthRequest="150"
+                HorizontalOptions="Center" />
+
+        <Rectangle Fill="Gold" />
+
+        <Image
+               Source="postit.png"
+               SemanticProperties.Description=""
+               HeightRequest="100"
+               WidthRequest="200"
+               HorizontalOptions="Center" />
+
+        <Rectangle Fill="Gold" />
+
+        <Label
+                Text="My Memo App - Realized by .NET MAUI, C# Lenguage, SQLite Locale storage and MVVM Pattern"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="12"
+                TextColor="White"
+                HorizontalOptions="Center" />
+
+        <Button 
+                  Text="Info App"
+                  VerticalOptions="Center"
+                  BackgroundColor="lightcoral"
+                  WidthRequest="100"
+                  Clicked="OnButtonInfoAppClicked"
+                />
+
+    </VerticalStackLayout>
+</ContentPage>
