@@ -1,4 +1,4 @@
-Semplice App Mobile di promemoria realizzata in ASP.NET 7.0 MAUI, linguaggio C#, SQLite database interno, pattern MVVM, interfaccia XAML e LINQ per le operazioni sul db locale.
+Semplice <b>App Mobile</b> di promemoria realizzata in <b>ASP.NET 7.0 MAUI</b>, linguaggio C#, SQLite database interno, pattern MVVM, interfaccia XAML e LINQ per le operazioni sul db locale.
 
 Licenza di rilascio: MIT
 
