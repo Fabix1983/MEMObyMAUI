@@ -12,47 +12,47 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MEMObyMAUI
-build_property.ProjectDir = C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\
+build_property.ProjectDir = C:\Users\PC\Desktop\GitHub\MEMObyMAUI\MEMObyMAUI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/PC/Desktop/Progetti Locale/MAUI/MEMObyMAUI/MEMObyMAUI/App.xaml]
+[C:/Users/PC/Desktop/GitHub/MEMObyMAUI/MEMObyMAUI/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MEMObyMAUI.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/PC/Desktop/Progetti Locale/MAUI/MEMObyMAUI/MEMObyMAUI/Resources/Styles/Colors.xaml]
+[C:/Users/PC/Desktop/GitHub/MEMObyMAUI/MEMObyMAUI/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MEMObyMAUI.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/PC/Desktop/Progetti Locale/MAUI/MEMObyMAUI/MEMObyMAUI/Resources/Styles/Styles.xaml]
+[C:/Users/PC/Desktop/GitHub/MEMObyMAUI/MEMObyMAUI/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MEMObyMAUI.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/PC/Desktop/Progetti Locale/MAUI/MEMObyMAUI/MEMObyMAUI/Views/DetailsPage.xaml]
+[C:/Users/PC/Desktop/GitHub/MEMObyMAUI/MEMObyMAUI/Views/DetailsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MEMObyMAUI.Views.DetailsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\DetailsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\DetailsPage.xaml
 
-[C:/Users/PC/Desktop/Progetti Locale/MAUI/MEMObyMAUI/MEMObyMAUI/Views/HomePage.xaml]
+[C:/Users/PC/Desktop/GitHub/MEMObyMAUI/MEMObyMAUI/Views/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MEMObyMAUI.Views.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
 
-[C:/Users/PC/Desktop/Progetti Locale/MAUI/MEMObyMAUI/MEMObyMAUI/Views/InfoAppPage.xaml]
+[C:/Users/PC/Desktop/GitHub/MEMObyMAUI/MEMObyMAUI/Views/InfoAppPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MEMObyMAUI.Views.InfoAppPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\InfoAppPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\InfoAppPage.xaml
 
-[C:/Users/PC/Desktop/Progetti Locale/MAUI/MEMObyMAUI/MEMObyMAUI/Views/NewPage.xaml]
+[C:/Users/PC/Desktop/GitHub/MEMObyMAUI/MEMObyMAUI/Views/NewPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MEMObyMAUI.Views.NewPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\NewPage.xaml
