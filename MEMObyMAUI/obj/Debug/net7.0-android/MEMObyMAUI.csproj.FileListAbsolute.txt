@@ -963,6 +963,14 @@ C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-
 C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\check.png
 C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\check.png
 C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\check.png
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\typemaps.arm64-v8a.ll
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\environment.arm64-v8a.ll
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\compressed_assemblies.arm64-v8a.ll
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\typemaps.arm64-v8a.o
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\environment.arm64-v8a.o
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\compressed_assemblies.arm64-v8a.o
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\jni_remap.arm64-v8a.o
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
 C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\assets\mscorlib.dll
 C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\assets\System.Collections.Concurrent.dll
 C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\assets\System.Data.Common.dll
@@ -976,11 +984,3 @@ C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-
 C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.Extensions.dll
 C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Formatters.dll
 C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\assets\System.Xml.dll
-C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\typemaps.arm64-v8a.ll
-C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\environment.arm64-v8a.ll
-C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\compressed_assemblies.arm64-v8a.ll
-C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\typemaps.arm64-v8a.o
-C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\environment.arm64-v8a.o
-C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\compressed_assemblies.arm64-v8a.o
-C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\android\jni_remap.arm64-v8a.o
-C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so

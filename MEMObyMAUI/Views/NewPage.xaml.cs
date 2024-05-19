@@ -77,7 +77,7 @@ public partial class NewPage : ContentPage
         if (DateTime.Parse(formatted) < DateTime.Now)
         {
             await App.Current.MainPage.DisplayAlert("Data non valida",
-                "Ehi la data del memo non è valida", "OK");
+                "Ehi la data del memo è passata", "OK");
 
             return;
         }

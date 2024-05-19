@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KFo/UT57fhz20wfsodTqOlBHc/wzVBMhXWKCBERFrk+Vmst7dp0ww76iwZ4wCfz8VZdfoKkwPVWC2sOW4oj2GQ==",
+  "dgSpecHash": "iKIx/6wIlIHy9H8TV7/AZzbNqmgQP3DgpLT3ZqObFOqhVZnF2YrS48cvwBuwqeWhUbFd6n6+Uj013S7gNBqg6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\GitHub\\MEMObyMAUI\\MEMObyMAUI\\MEMObyMAUI.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\Progetti Locale\\MAUI\\MEMObyMAUI\\MEMObyMAUI\\MEMObyMAUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

@@ -30,7 +30,7 @@
                     Text="My Memo App"
                     SemanticProperties.HeadingLevel="Level1"
                     FontSize="30"
-                    TextColor="Gold"
+                    TextColor="lightcoral"
                     HorizontalOptions="Center" 
                     VerticalOptions="Center"
                     Grid.Row="0" 
@@ -50,7 +50,7 @@
                       Grid.Column="0"
                       Text="Home"
                       VerticalOptions="Center"
-                      BackgroundColor="goldenrod"
+                      BackgroundColor="lightcoral"
                       Clicked="OnButtonHomeClicked" />
 
                     <Button 
@@ -58,7 +58,7 @@
                       Grid.Column="0"
                       Text="Gestisci"
                       VerticalOptions="Center"
-                      BackgroundColor="goldenrod"
+                      BackgroundColor="lightcoral"
                       Clicked="OnButtonGestisciClicked" />
 
                 </Grid>
