@@ -8,3 +8,6 @@ Release license: MIT
 
 Gianlorenzo Fabio
 
+![AppScreenShot](https://github.com/Fabix1983/MEMObyMAUI/assets/149963958/b8c7aec4-e989-4ba3-9e3c-6209d2a3c92b)
+
+
