@@ -1,4 +1,6 @@
-﻿namespace MEMObyMAUI
+﻿using MEMObyMAUI.Views;
+
+namespace MEMObyMAUI
 {
     public partial class App : Application
     {
@@ -6,10 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new HomePage();
-            Routing.RegisterRoute(nameof(DetailsPage), typeof(DetailsPage));
-            Routing.RegisterRoute(nameof(NewPage), typeof(NewPage));
-            Routing.RegisterRoute(nameof(InfoAppPage), typeof(InfoAppPage));
+            MainPage = new TabPage();
         }
     }
 }

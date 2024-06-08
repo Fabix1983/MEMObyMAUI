@@ -25,6 +25,7 @@ namespace MEMObyMAUI.ViewModels
                 OnPropertyChanged();
             }
         }
+        public Color Colore { get; set; }
 
         public event PropertyChangedEventHandler PropertyChanged;
 

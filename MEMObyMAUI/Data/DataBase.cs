@@ -52,5 +52,10 @@ namespace MEMObyMAUI.Data
         {
             return await connessione.DeleteAsync(daEliminare);
         }
+
+        public async Task<int> CountMemo()
+        {
+            return await connessione.Table<myMemo>().CountAsync();
+        }
     }
 }

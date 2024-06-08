@@ -3,17 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MEMObyMAUI.DetailsPage"
              Title="DetailsPage" 
-             BackgroundColor="darkslateblue" 
+             BackgroundImageSource="sfondo2.jpg" 
              x:Name="PaginaToMemoList"
              BindingContext="{x:Reference PaginaToMemoList}">
 
     <ScrollView>
-        <StackLayout Margin="12" Padding="15, 15, 15, 15" Spacing="5" x:Name="VLayout">
+        <StackLayout Margin="5" Padding="10, 10, 10, 10" Spacing="5" x:Name="VLayout">
 
             <Grid 
                 Padding="3"
                 Margin="1,1"
-                ColumnDefinitions="*,*,*"
+                ColumnDefinitions="*,*"
                 RowDefinitions="auto"
                 ColumnSpacing="0"
                 RowSpacing="0"
@@ -28,49 +28,21 @@
                     Grid.Row="0" 
                     Grid.Column="0"/>
 
-                <Label
-                    Text="My Memo App"
-                    SemanticProperties.HeadingLevel="Level1"
-                    FontSize="30"
-                    TextColor="lightcoral"
-                    HorizontalOptions="Center" 
-                    VerticalOptions="Center"
-                    Grid.Row="0" 
-                    Grid.Column="1"/>
-
-                <Grid 
-                    Grid.Row="0"
-                    Grid.Column="2"
-                    ColumnDefinitions="*"
-                    RowDefinitions="*,*"
-                    ColumnSpacing="0"
-                    RowSpacing="0"
-                    x:Name="MemoTop2">
-
-                    <Button 
-                      Grid.Row="0"
-                      Grid.Column="0"
-                      Text="Home"
-                      VerticalOptions="Center"
-                      BackgroundColor="lightcoral"
-                      Clicked="OnButtonHomeClicked" />
-
-                    <Button 
-                      Grid.Row="1"
-                      Grid.Column="0"
-                      Text="New Memo"
-                      VerticalOptions="Center"
-                      BackgroundColor="lightcoral"
-                      Clicked="OnButtonNuovoClicked" />
-
-                </Grid>
+                <Label LineBreakMode="WordWrap" Grid.Row="0" Grid.Column="1">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="My MEMO App" TextColor="Yellow" FontAttributes="Bold" FontSize="26" />
+                            <Span Text=" 2.0 " TextColor="#eb0e63" FontAttributes="Italic" FontSize="32"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
 
             </Grid>
 
-            <Rectangle Fill="Gold" />
+            <Rectangle Fill="#eb0e63" />
 
             <Label
-                Text="Gestisci i Tuoi Memo:"
+                Text="I Tuoi Memo"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="20"
                 TextColor="White"
@@ -79,7 +51,7 @@
             <Grid 
                 RowDefinitions="*, *"
                 ColumnDefinitions="*" 
-                BackgroundColor="darkslateblue" 
+                BackgroundColor="Transparent" 
                 x:Name="Griglia"
                 ColumnSpacing="2"
                 RowSpacing="2"
@@ -99,40 +71,42 @@
                                       Command="{Binding DeleteItemCommand}"
                                       CommandParameter="{Binding .}"
                                       IconImageSource="check.svg"
-                                      BackgroundColor="darkslateblue"
+                                      BackgroundColor="Transparent"
                                       Invoked="SwipeItem_Invoked"/>
                                     </SwipeItems>
                                 </SwipeView.RightItems>
 
                                 <Grid
-                              Padding="2"
-                              Margin="0,2"
-                              ColumnDefinitions="*,*"
-                              RowDefinitions="*,*"
-                              ColumnSpacing="2"
-                              x:Name="MemoItem">
+                                  Padding="2"
+                                  Margin="0,2"
+                                  ColumnDefinitions="*,*"
+                                  RowDefinitions="*,*"
+                                  ColumnSpacing="2"
+                                  x:Name="MemoItem">
 
-                                    <Label Text="{Binding Data, StringFormat='{0:dd/MM/yyyy HH:mm}'}"
-                                    VerticalOptions="CenterAndExpand"
-                                    TextColor="salmon"
-                                    FontSize="15"
-                                    Grid.Row="0" 
-                                    Grid.Column="0"/>
+                                      <Label Text="{Binding Data, StringFormat='{0:dd/MM/yyyy HH:mm}'}"
+                                        VerticalOptions="CenterAndExpand"
+                                        TextColor="{Binding Colore}" 
+                                        FontAttributes="Bold"
+                                        FontSize="20"
+                                        Grid.Row="0" 
+                                        Grid.Column="0"/>
 
-                                    <CheckBox IsChecked ="{Binding Eseguito}"
-                                  VerticalOptions="Center"
-                                  Color="Gold"
-                                  Grid.Row="0"
-                                  Grid.Column="1" />
+                                      <CheckBox IsChecked ="{Binding Eseguito}"
+                                          VerticalOptions="Center"
+                                          Color="#eb0e63"
+                                          Grid.Row="0"
+                                          Grid.Column="1" 
+                                          HorizontalOptions="End" />
 
-                                    <Label Text="{Binding Descrizione}"
-                                  TextColor="salmon"
-                                  LineBreakMode="WordWrap"
-                                  HorizontalOptions="StartAndExpand"
-                                  FontSize="15"
-                                  Grid.Row="1"
-                                  Grid.Column="0"
-                                  Grid.ColumnSpan="2"/>
+                                      <Label Text="{Binding Descrizione}"
+                                          TextColor="{Binding Colore}" 
+                                          LineBreakMode="WordWrap"
+                                          HorizontalOptions="StartAndExpand"
+                                          FontSize="20"
+                                          Grid.Row="1"
+                                          Grid.Column="0"
+                                          Grid.ColumnSpan="2"/>
 
                                 </Grid>
                             </SwipeView>
@@ -145,7 +119,7 @@
                   Grid.Column="0"
                   Text="Tutto fatto!"
                   VerticalOptions="Center"
-                  BackgroundColor="Salmon"
+                  BackgroundColor="#eb0e63"
                   HorizontalOptions="Start"
                   Clicked="OnButtonTuttiFattiClicked" />
 
@@ -154,12 +128,12 @@
                   Grid.Column="0"
                   Text="Elimina Fatti"
                   VerticalOptions="Center"
-                  BackgroundColor="Salmon"
+                  BackgroundColor="#eb0e63"
                   HorizontalOptions="End"
                   Clicked="OnButtonEliminaFattiClicked" />
             </Grid>
 
-            <Rectangle Fill="Gold" />
+            <Rectangle Fill="#eb0e63" />
 
             <Image
                Source="postit2.png"
@@ -167,23 +141,6 @@
                HeightRequest="120"
                WidthRequest="220"
                HorizontalOptions="Center" />
-
-            <Rectangle Fill="Gold" />
-
-            <Label
-                Text="My Memo App - Realized by .NET MAUI, C# Lenguage, SQLite Locale storage and MVVM Pattern"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="12"
-                TextColor="White"
-                HorizontalOptions="Center" />
-
-            <Button 
-                  Text="Info App"
-                  VerticalOptions="Center"
-                  BackgroundColor="lightcoral"
-                  WidthRequest="100"
-                  Clicked="OnButtonInfoAppClicked"
-                />
 
         </StackLayout>
     </ScrollView>

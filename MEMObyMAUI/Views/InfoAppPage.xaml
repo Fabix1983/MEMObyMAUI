@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MEMObyMAUI.InfoAppPage"
-             BackgroundColor="darkslateblue"
+             BackgroundImageSource="sfondo2.jpg"
              Title="InfoAppPage">
     <ScrollView>
     
@@ -11,7 +11,7 @@
             <Grid 
                 Padding="3"
                 Margin="1,1"
-                ColumnDefinitions="*,*,*"
+                ColumnDefinitions="*,*"
                 RowDefinitions="auto"
                 ColumnSpacing="0"
                 RowSpacing="0"
@@ -26,49 +26,21 @@
                     Grid.Row="0" 
                     Grid.Column="0"/>
 
-                <Label
-                    Text="My Memo App"
-                    SemanticProperties.HeadingLevel="Level1"
-                    FontSize="30"
-                    TextColor="lightcoral"
-                    HorizontalOptions="Center" 
-                    VerticalOptions="Center"
-                    Grid.Row="0" 
-                    Grid.Column="1"/>
-
-                <Grid 
-                    Grid.Row="0"
-                    Grid.Column="2"
-                    ColumnDefinitions="*"
-                    RowDefinitions="*,*"
-                    ColumnSpacing="0"
-                    RowSpacing="0"
-                    x:Name="MemoTop2">
-
-                    <Button 
-                      Grid.Row="0"
-                      Grid.Column="0"
-                      Text="Home"
-                      VerticalOptions="Center"
-                      BackgroundColor="lightcoral"
-                      Clicked="OnButtonHomeClicked" />
-
-                    <Button 
-                      Grid.Row="1"
-                      Grid.Column="0"
-                      Text="Gestisci"
-                      VerticalOptions="Center"
-                      BackgroundColor="lightcoral"
-                      Clicked="OnButtonGestisciClicked" />
-
-                </Grid>
+                <Label LineBreakMode="WordWrap" Grid.Row="0" Grid.Column="1">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="My MEMO App" TextColor="Yellow" FontAttributes="Bold" FontSize="26" />
+                            <Span Text=" 2.0 " TextColor="#eb0e63" FontAttributes="Italic" FontSize="32"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
 
             </Grid>
 
-            <Rectangle Fill="Gold" />
+            <Rectangle Fill="#eb0e63" />
 
         <Label
-            Text="Info My Memo App:"
+            Text="Info My Memo App"
             SemanticProperties.HeadingLevel="Level1"
             FontSize="20"
             TextColor="White"
@@ -82,7 +54,7 @@
             HorizontalOptions="Center" />
 
         <Label
-                Text="Versione 1.0.2"
+                Text="Versione 2.0.1"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="12"
                 TextColor="White"
@@ -95,7 +67,7 @@
                 TextColor="White"
                 HorizontalOptions="Center" />
 
-        <Rectangle Fill="Gold" />
+        <Rectangle Fill="#eb0e63" />
 
         <Label
                 Text="Copyright (c)  Fabio Gianlorenzo"
@@ -143,9 +115,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
                 TextColor="White"
                 HorizontalOptions="Center" />
 
-        <Rectangle Fill="Gold" />
+        <Rectangle Fill="#eb0e63" />
 
-            <Image
+        <Image
             Grid.Row="0"
             Grid.Column="1"
             Source="info.png"

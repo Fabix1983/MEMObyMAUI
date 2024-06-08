@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MEMObyMAUI.NewPage"
-             BackgroundColor="darkslateblue"
+             BackgroundImageSource="sfondo2.jpg"
              Title="Nuovo Memo">
     
     <VerticalStackLayout Margin="5" Padding="10, 10, 10, 10" Spacing="5" x:Name="VLayoutNewMemo">
@@ -10,7 +10,7 @@
         <Grid 
                 Padding="3"
                 Margin="1,1"
-                ColumnDefinitions="*,*,*"
+                ColumnDefinitions="*,*"
                 RowDefinitions="auto"
                 ColumnSpacing="0"
                 RowSpacing="0"
@@ -25,49 +25,21 @@
                     Grid.Row="0" 
                     Grid.Column="0"/>
 
-            <Label
-                    Text="My Memo App"
-                    SemanticProperties.HeadingLevel="Level1"
-                    FontSize="30"
-                    TextColor="lightcoral"
-                    HorizontalOptions="Center" 
-                    VerticalOptions="Center"
-                    Grid.Row="0" 
-                    Grid.Column="1"/>
-
-            <Grid 
-                    Grid.Row="0"
-                    Grid.Column="2"
-                    ColumnDefinitions="*"
-                    RowDefinitions="*,*"
-                    ColumnSpacing="0"
-                    RowSpacing="0"
-                    x:Name="MemoTop2">
-
-                <Button 
-                      Grid.Row="0"
-                      Grid.Column="0"
-                      Text="Home"
-                      VerticalOptions="Center"
-                      BackgroundColor="lightcoral"
-                      Clicked="OnButtonHomeClicked" />
-
-                <Button 
-                      Grid.Row="1"
-                      Grid.Column="0"
-                      Text="Gestisci"
-                      VerticalOptions="Center"
-                      BackgroundColor="lightcoral"
-                      Clicked="OnButtonGestisciClicked" />
-
-            </Grid>
+            <Label LineBreakMode="WordWrap" Grid.Row="0" Grid.Column="1">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="My MEMO App" TextColor="Yellow" FontAttributes="Bold" FontSize="26" />
+                        <Span Text=" 2.0 " TextColor="#eb0e63" FontAttributes="Italic" FontSize="32"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
 
         </Grid>
 
-        <Rectangle Fill="Gold" />
+        <Rectangle Fill="#eb0e63" />
 
         <Label
-                Text="Nuovo Memo:"
+                Text="Nuovo Memo"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="20"
                 TextColor="White"
@@ -93,7 +65,7 @@
                 x:Name="DataTXT"
                 HorizontalOptions="Center"
                 TextColor="White"
-                BackgroundColor="darkslateblue"
+                BackgroundColor="Transparent"
                 MinimumDate="{Binding MinDate}"
                 MaximumDate="{Binding MaxDate}"
                 Date="{Binding SelectedDate}" />
@@ -104,6 +76,7 @@
                 x:Name="TimeTXT"    
                 HorizontalOptions="Center"
                 TextColor="White"
+                BackgroundColor="Transparent"
                 Time="{Binding SelectedTime}" />
 
         </Grid>
@@ -131,11 +104,11 @@
                 Text="Conferma"
                 SemanticProperties.Hint="Inserisci memo"
                 Clicked="OnInsClicked"
-                BackgroundColor="goldenrod"
+                BackgroundColor="#eb0e63"
                 WidthRequest="150"
                 HorizontalOptions="Center" />
 
-        <Rectangle Fill="Gold" />
+        <Rectangle Fill="#eb0e63" />
 
         <Image
                Source="postit.png"
@@ -143,23 +116,7 @@
                HeightRequest="100"
                WidthRequest="200"
                HorizontalOptions="Center" />
-
-        <Rectangle Fill="Gold" />
-
-        <Label
-                Text="My Memo App - Realized by .NET MAUI, C# Lenguage, SQLite Locale storage and MVVM Pattern"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="12"
-                TextColor="White"
-                HorizontalOptions="Center" />
-
-        <Button 
-                  Text="Info App"
-                  VerticalOptions="Center"
-                  BackgroundColor="lightcoral"
-                  WidthRequest="100"
-                  Clicked="OnButtonInfoAppClicked"
-                />
+ 
 
     </VerticalStackLayout>
 </ContentPage>

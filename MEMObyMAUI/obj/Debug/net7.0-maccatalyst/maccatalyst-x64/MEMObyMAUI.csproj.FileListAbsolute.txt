@@ -269,3 +269,14 @@ C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-
 C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\check.png
 C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\check@2x.png
 C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\check@3x.png
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\add.png
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\add@2x.png
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\add@3x.png
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\home.png
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\home@2x.png
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\home@3x.png
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\infoicon.png
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\infoicon@2x.png
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\infoicon@3x.png
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\sfondo.png
+C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\sfondo2.jpg

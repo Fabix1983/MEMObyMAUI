@@ -36,7 +36,7 @@ namespace MEMObyMAUI
                     Id = item.Id,
                     Data = item.Data,
                     Descrizione = item.Descrizione,
-                    Eseguito = item.Eseguito
+                    Eseguito = item.Eseguito  
                 };
 
                 int esito = await database.EliminaMemoItem(delMemoItem);
@@ -59,16 +59,35 @@ namespace MEMObyMAUI
 
         private async void LeggiDettMemo()
         {
-            foreach (var item in await database.LeggiMemoItem())
-            {
-                Memos.Add(new MyMemoVM
+            int itemnum = 0;
+            itemnum = await database.CountMemo();
+
+            Color Color = Colors.White;
+
+            if (itemnum > 0) { 
+
+                foreach (var item in await database.LeggiMemoItem())
                 {
-                    Id = item.Id,
-                    Descrizione = item.Descrizione,
-                    Data = item.Data,
-                    Eseguito = item.Eseguito
-                });
+                    if (item.Data < DateTime.Now)
+                    {
+                        Color = Colors.Red;
+                    }
+                    else
+                    {
+                        Color = Colors.White;
+                    }
+
+                    Memos.Add(new MyMemoVM
+                    {
+                        Id = item.Id,
+                        Descrizione = item.Descrizione,
+                        Data = item.Data,
+                        Eseguito = item.Eseguito,
+                        Colore = Color,
+                    });
+                }
             }
+
         }
 
         void OnButtonTuttiFattiClicked(object sender, EventArgs args)
@@ -107,21 +126,6 @@ namespace MEMObyMAUI
                 }
                 else
                     pos++;
-        }
-
-        private void OnButtonHomeClicked(object sender, EventArgs e)
-        {
-            Application.Current.MainPage.Navigation.PushModalAsync(new HomePage(), true);
-        }
-
-        private void OnButtonNuovoClicked(object sender, EventArgs e)
-        {
-            Application.Current.MainPage.Navigation.PushModalAsync(new NewPage(), true);
-        }
-
-        private void OnButtonInfoAppClicked(object sender, EventArgs e)
-        {
-            Application.Current.MainPage.Navigation.PushModalAsync(new InfoAppPage(), true);
         }
     }
 }

@@ -748,6 +748,21 @@
     <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\add.scale-100.png">
+      <PackagePath>add.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\add.scale-125.png">
+      <PackagePath>add.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\add.scale-150.png">
+      <PackagePath>add.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\add.scale-200.png">
+      <PackagePath>add.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\add.scale-400.png">
+      <PackagePath>add.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
@@ -901,8 +916,38 @@
     <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\check.scale-400.png">
       <PackagePath>check.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
+      <PackagePath>home.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-125.png">
+      <PackagePath>home.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-150.png">
+      <PackagePath>home.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-200.png">
+      <PackagePath>home.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-400.png">
+      <PackagePath>home.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info.scale-100.png">
       <PackagePath>info.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\infoicon.scale-100.png">
+      <PackagePath>infoicon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\infoicon.scale-125.png">
+      <PackagePath>infoicon.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\infoicon.scale-150.png">
+      <PackagePath>infoicon.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\infoicon.scale-200.png">
+      <PackagePath>infoicon.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\infoicon.scale-400.png">
+      <PackagePath>infoicon.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
@@ -915,6 +960,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\postit3.scale-100.png">
       <PackagePath>postit3.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sfondo.scale-100.png">
+      <PackagePath>sfondo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\Desktop\Progetti Locale\MAUI\MEMObyMAUI\MEMObyMAUI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sfondo2.scale-100.jpg">
+      <PackagePath>sfondo2.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

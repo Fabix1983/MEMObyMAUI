@@ -1,5 +1,6 @@
 using MEMObyMAUI.Data;
 using MEMObyMAUI.Models;
+using MEMObyMAUI.Views;
 using System.ComponentModel;
 using System.Data;
 using System.Runtime.CompilerServices;
@@ -74,6 +75,7 @@ public partial class NewPage : ContentPage
             return;
         }
 
+        /*
         if (DateTime.Parse(formatted) < DateTime.Now)
         {
             await App.Current.MainPage.DisplayAlert("Data non valida",
@@ -81,6 +83,7 @@ public partial class NewPage : ContentPage
 
             return;
         }
+        */
 
         myMemo nuovoMemoItem = new myMemo
         {
@@ -95,29 +98,15 @@ public partial class NewPage : ContentPage
             await App.Current.MainPage.DisplayAlert("Inserimento Memo Eseguito",
                 "...ho memorizzato il Tuo nuovo Memo", "OK");
 
-            await Application.Current.MainPage.Navigation.PushModalAsync(new HomePage(), true);
+            await Application.Current.MainPage.Navigation.PushModalAsync(new TabPage(), true);
         }
         else
         {
             await App.Current.MainPage.DisplayAlert("Inserimento Memo FALLITO",
                 "mmmh qualcosa è andato storto...", "OK");
 
-            await Application.Current.MainPage.Navigation.PushModalAsync(new HomePage(), true);
+            await Application.Current.MainPage.Navigation.PushModalAsync(new TabPage(), true);
         }
     }
 
-    private void OnButtonInfoAppClicked(object sender, EventArgs e)
-    {
-        Application.Current.MainPage.Navigation.PushModalAsync(new InfoAppPage(), true);
-    }
-
-    private void OnButtonHomeClicked(object sender, EventArgs e)
-    {
-        Application.Current.MainPage.Navigation.PushModalAsync(new HomePage(), true);
-    }
-
-    private void OnButtonGestisciClicked(object sender, EventArgs e)
-    {
-        Application.Current.MainPage.Navigation.PushModalAsync(new DetailsPage(), true);
-    }
 }
